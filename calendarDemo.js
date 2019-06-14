@@ -1,4 +1,4 @@
-import generateView from 'rvcalendar/src/RVcalendar'
+import generateView from 'rvcalendar'
 window.onload = function () {
     generateView("#app", function (selectDate) {
         alert("selectDate,:"+selectDate)
