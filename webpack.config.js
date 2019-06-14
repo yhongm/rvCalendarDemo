@@ -4,14 +4,14 @@ const {
 } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
-  entry: './demo.js',
+  entry: './calendarDemo.js',
   mode: "production",
   devtool: 'inline-source-map',
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title: '',
-      template:'demo.html',
+      template:'calendarDemo.html',
       filename:'demo.html'
     })
   ],
